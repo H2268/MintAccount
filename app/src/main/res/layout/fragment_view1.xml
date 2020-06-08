@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <TableLayout
+        android:id="@+id/table"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/background1">
+        <LinearLayout
+            android:id="@+id/head"
+            android:background="#8A4CAF50"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:focusable="true"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:keepScreenOn="true">
+
+
+            <TextView
+                android:id="@+id/item1"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:text="状态"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:width="80dp"
+                >
+
+            </TextView>
+            <TextView android:id="@+id/item2"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:text="类型"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:width="80dp"
+                />
+            />
+            <TextView
+                android:id="@+id/item3"
+                android:text="费用"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:width="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+<!--            <TextView-->
+<!--                android:id="@+id/item4"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:text="备注"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:width="80dp"-->
+
+<!--                />-->
+            <TextView android:id="@+id/item5"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:text="日期"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:width="150dp"
+
+                />
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/footer"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="24dp"-->
+<!--            android:background="#9C27B0"-->
+<!--            android:orientation="horizontal">-->
+
+<!--        </LinearLayout>-->
+    </TableLayout>
+<!--       <LinearLayout-->
+<!--           android:orientation="horizontal">-->
+<!--           android:layout_width="match_parent"-->
+<!--           android:layout_height="match_parent">-->
+<!--    <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--           android:layout_height="1dp"-->
+<!--        android:background="@android:color/background_dark"/>-->
+
+<!--       <ListView-->
+<!--            android:id="@+id/money_list"-->
+<!--           android:layout_width="match_parent"-->
+<!--           android:layout_height="match_parent">-->
+
+<!--       </ListView>-->
+<!--</LinearLayout>-->
+
+</LinearLayout>
+
+
+
